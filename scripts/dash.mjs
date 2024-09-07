@@ -5,6 +5,8 @@ import sqlite3 from 'sqlite3';
 import {tgz} from 'compressing';
 import { spawn } from 'child_process';
 import {fileURLToPath} from 'url';
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
